@@ -32,6 +32,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 
 CURRENT_URL = 'http://127.0.0.1:8000'
+CNPJA_API_TOKEN = os.getenv('CNPJA_API_TOKEN')
 
 # Lista de permissão
 CORS_ALLOWED_ORIGINS = [
@@ -57,6 +58,7 @@ INSTALLED_APPS = [
 
     # Apps
     'accounts',
+    'empresa',
 ]
 
 MIDDLEWARE = [
