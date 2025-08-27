@@ -59,6 +59,7 @@ INSTALLED_APPS = [
     # Apps
     'accounts',
     'empresa',
+    'planoDeContas',
 ]
 
 MIDDLEWARE = [
